@@ -3,5 +3,7 @@ MonopolAI is an AI built in Rust and Python.  Inspired by newer game AIs that ge
 
 ## Contributors
 Mateo Abascal / [@mateo](https://github.com/mateo)
+
 Isaac Shure / [@IsaacShure](https://github.com/IsaacShure)
+
 Ankur Jain / [@ankur](https://github.com/ankur)
