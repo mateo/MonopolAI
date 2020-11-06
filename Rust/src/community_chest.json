@@ -1,0 +1,116 @@
+{
+    "1": {
+        "name": "Advance to Go",
+        "special": 0,
+        "move to": 0,
+        "money": 0,
+        "in deck": 1
+    },
+    "2": {
+        "name": "Bank Error in Your Favor",
+        "special": 0,
+        "move to": -1,
+        "money": 200,
+        "in deck": 1
+    },
+    "3": {
+        "name": "Doctor's Fee",
+        "special": 0,
+        "move to": -1,
+        "money": -50,
+        "in deck": 1
+    },
+    "4": {
+        "name": "Sale of Stock",
+        "special": 0,
+        "move to": -1,
+        "money": 50,
+        "in deck": 1
+    },
+    "5": {
+        "name": "Get Out of Jail Free",
+        "special": 1,
+        "in deck": 1
+    },
+    "6": {
+        "name": "Go to Jail",
+        "special": 1,
+        "in deck": 1,
+        "_comment": "DO NOT PASS GO DO NOT COLLECT $200, BEYOTCH"
+    }
+    "7": {
+        "name": "Grand Opera Night",
+        "special": 1,
+        "in deck": 1,
+        "_comment": "Collect $50 from Each Player"
+    },
+    "8": {
+        "name": "Holiday Fund Matures",
+        "special": 0,
+        "move to": -1,
+        "money": 100,
+        "in deck": 1
+    }
+    "9": {
+        "name": "Income Tax Refund",
+        "special": 0,
+        "move to": -1,
+        "money": 20,
+        "in deck": 1
+    },
+    "10": {
+        "name": "It's your Birthday!",
+        "special": 0,
+        "move to": -1,
+        "money": 10,
+        "in deck": 1
+    },
+    "11": {
+        "name": "Life Insurance Matures",
+        "special": 0,
+        "move to": -1,
+        "money": 100,
+        "in deck": 1
+    },
+    "12": {
+        "name": "Pay Hospital Fees",
+        "special": 0,
+        "move to": -1,
+        "money": -100,
+        "in deck": 1
+    },
+    "13": {
+        "name": "Pay School Fees",
+        "special": 0,
+        "move to": -1,
+        "money": -150,
+        "in deck": 1
+    },
+    "14": {
+        "name": "Receive Consultancy Fee",
+        "special": 0,
+        "move to": -1,
+        "money": 25,
+        "in deck": 1
+    },
+    "15": {
+        "name": "Assessed for Street Repairs",
+        "special": 1,
+        "in deck": 1,
+        "_comment": "pay $40 per house, $115 per hotel"
+    },
+    "16": {
+        "name": "You Win Second Place in a Beauty Contest",
+        "special": 0,
+        "move to": -1,
+        "money": 10,
+        "in deck": 1
+    },
+    "17": {
+        "name": "Inheritance",
+        "special": 0,
+        "move to": -1,
+        "money": 100,
+        "in dck": 1
+    }
+}

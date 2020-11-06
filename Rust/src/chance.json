@@ -1,0 +1,103 @@
+{
+    "1": {
+        "name": "Advance to Go",
+        "special": 0,
+        "move to": 0,
+        "money": 0,
+        "in deck": 1
+    },
+    "2": {
+        "name": "Advance to Illinois",
+        "special": 0,
+        "move to": 24,
+        "money": 0,
+        "in deck": 1
+    },
+    "3": {
+        "name": "Advance to St Charles",
+        "special": 0,
+        "move to": 11,
+        "money": 0,
+        "in deck": 1
+    },
+    "4": {
+        "name": "Advance to Nearest Utility",
+        "special": 1,
+        "in deck": 1
+    },
+    "5": {
+        "name": "Advance to Nearest Railroad",
+        "special": 1,
+        "in deck": 1
+    },
+    "6": {
+        "name": "Bank Pays Dividend",
+        "special": 0,
+        "move to": -1,
+        "money": 50,
+        "in deck": 1
+    },
+    "7": {
+        "name": "Get Out of Jail Free",
+        "special": 1,
+        "in deck": 1
+    },
+    "8": {
+        "name": "Go Back Three Spaces",
+        "special": 1,
+        "in deck": 1
+    },
+    "9": {
+        "name": "Go to Jail",
+        "special": 1,
+        "in deck": 1
+        "_comment": "DO NOT PASS GO DO NOT COLLECT $200, BEYOTCH"
+    },
+    "10": {
+        "name": "Make General Repairs",
+        "special": 1,
+        "in deck": 1,
+        "_comment": "pay $25 for each house, $50 for each hotel"
+    },
+    "11": {
+        "name": "Poor Tax",
+        "special": 0,
+        "move to": -1,
+        "money": -15,
+        "in deck": 1
+    },
+    "12": {
+        "name": "Take a Trip to Reading Railroad",
+        "special": 0,
+        "move to": 5,
+        "money": 0,
+        "in deck": 1
+    },
+    "13": {
+        "name": "Take a Walk on the Boardwalk",
+        "special": 0,
+        "move to": 39,
+        "money": 0,
+        "in deck": 1
+    },
+    "14": {
+        "name": "You Have Been Elected Chairman of the Board",
+        "special": 1,
+        "in deck": 1,
+        "_comment": "pay each player $50"
+    },
+    "15": {
+        "name": "Your Building and Loan Matures",
+        "special": 0,
+        "move to": -1,
+        "money": 150,
+        "in deck": 1
+    },
+    "16": {
+        "name": "You have Won a Crossword Competition",
+        "special": 0,
+        "move to": -1,
+        "money": 100,
+        "in deck": 1
+    }
+}
