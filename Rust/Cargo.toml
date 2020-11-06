@@ -1,5 +1,5 @@
 [package]
-name = "Monopoly"
+name = "MonopolAI"
 version = "0.1.0"
 authors = ["mateo"]
 edition = "2018"
@@ -8,3 +8,4 @@ edition = "2018"
 
 [dependencies]
 rand = "0.7.3"
+serde_json = "1.0"

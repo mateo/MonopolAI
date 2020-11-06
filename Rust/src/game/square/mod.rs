@@ -1,3 +1,8 @@
+use std::fs::read_to_string;
+use std::env;
+
+use serde_json::Value;
+
 pub trait Square {
 	fn lands(&self) -> u8;
 	fn kind(&self) -> u8;
@@ -26,11 +31,20 @@ use utility::Utility;
 
 pub fn init() -> Vec<Box<dyn Square>> {
 
+	// Read the JSON property configuration file
+	let root: String = env::var("MONOPOLAI_PATH").expect("Please define the MONOPOLAI_PATH Variable");
+	let path: String = format!("{}/Rust/src/game/square/properties.json", root);
+	let json = read_to_string(path).expect("Something went wrong reading the JSON File");
+
+	let prop: Value = serde_json::from_str(&json).expect("Something went wrong parsing the JSON File");
+
+	println!("{}", prop["Brown"]["Mediterranean Avenue"]["rents"]);
+
 	// Create the Vector
 	let mut squares: Vec<Box<dyn Square>> = vec![
 
 		// Mediterranean Avenue
-		Box::new(Property::new([2, 10, 30, 90, 160, 250], [60, 50], 30)),
+		Box::new(Property::new(prop["Brown"]["Mediterranean Avenue"]["rents"].as_array().unwrap(), [60, 50], 30)),
 
 		// Community Chest
 

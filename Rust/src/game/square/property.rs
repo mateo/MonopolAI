@@ -5,7 +5,7 @@ pub struct Property {
 	mortgage: u8,
 	is_mortgaged: bool,
 	has_hotel: bool,
-	owner: usize,
+	owner: i8,
 	lands: u8
 }
 
@@ -60,7 +60,7 @@ impl Property {
 			self.rents[5]
 		}
 		else { // Otherwise, determine the rent based on the number of houses
-			self.rents[self.houses]
+			self.rents[usize::from(self.houses)]
 		}
 	}
 
@@ -91,5 +91,8 @@ impl super::Square for Property {
 	fn lands(&self) -> u8 {
 		self.lands
 	}
+
+	// Show Property Type
+	fn kind(&self) -> u8 { 0 }
 
 }

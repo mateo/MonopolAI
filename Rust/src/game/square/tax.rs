@@ -26,4 +26,7 @@ impl super::Square for Tax {
 		self.lands
 	}
 
+	// Show Property Type
+	fn kind(&self) -> u8 { 1 }
+
 }

@@ -3,7 +3,7 @@ pub struct Utility {
 	rent_multiplier: [u8; 2],
 	mortgage: u8,
 	is_mortgaged: bool,
-	owner: usize,
+	owner: i8,
 	lands: u8
 }
 
@@ -55,5 +55,8 @@ impl super::Square for Utility {
 	fn lands(&self) -> u8 {
 		self.lands
 	}
+
+	// Show Property Type
+	fn kind(&self) -> u8 { 2 }
 
 }
