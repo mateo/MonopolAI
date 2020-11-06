@@ -1,7 +1,7 @@
 {
-    "properties": [],
-    "get out of jail": 0,
+    "props": [],
+    "jail_free": 0,
     "money": 0,
-    "location": 0,
-    "turns in jail": 0
+    "loc": 0,
+    "jail_turns": 0
 }
