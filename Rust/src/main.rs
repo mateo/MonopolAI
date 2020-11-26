@@ -15,7 +15,7 @@ fn main() {
 	let path: String = format!("{}/Rust/src/properties.json", root);
 	let json = read_to_string(path).expect("Something went wrong reading the JSON File");
 	let squares: Value = serde_json::from_str(&json).expect("Something went wrong parsing the JSON File");
-	
+
 	println!("Rents: {}", squares["1"]["rents"]);
 	println!("Location: {}", players["location"]);
 
